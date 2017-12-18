@@ -53,120 +53,20 @@ ul{
 	text-decoration: none;
 	padding: 0px;
 	float: none;
-	background-image: url(images/banner.jpg);
+	background-image: none;
 	background-repeat: no-repeat;
 }
-.topmenu_area {
-	margin: 0px;
+
+.logo {
 	float: left;
-	width: 292px;
-	padding-top: 0px;
+	margin: 0px;
+	padding-top: 52px;
 	padding-right: 0px;
 	padding-bottom: 0px;
-	padding-left: 682px;
-}
-.home {
-	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #333333;
-	text-decoration: none;
-	background-image: url(images/top_menu_01.png);
-	background-repeat: no-repeat;
-	margin: 0px;
-	float: left;
-	height: 26px;
-	width: 43px;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 67px;
-}
-.home:hover {
-	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #00ffff;
-	text-decoration: none;
-	background-image: url(images/top_menu1_01.png);
-	background-repeat: no-repeat;
-	margin: 0px;
-	float: left;
-	height: 26px;
-	width: 43px;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 67px;
-}
-.about {
-	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #333333;
-	text-decoration: none;
-	background-image: url(images/top_menu_02.png);
-	background-repeat: no-repeat;
-	margin: 0px;
-	float: left;
-	height: 26px;
-	width: 45px;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 27px;
-}
-.about:hover {
-	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #00ffff;
-	text-decoration: none;
-	background-image: url(images/top_menu1_02.png);
-	background-repeat: no-repeat;
-	margin: 0px;
-	float: left;
-	height: 26px;
-	width: 45px;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 27px;
-}
-.search {
-	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #333333;
-	text-decoration: none;
-	background-image: url(images/top_menu_03.png);
-	background-repeat: no-repeat;
-	margin: 0px;
-	float: left;
-	height: 26px;
-	width: 84px;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 25px;
-}
-.search:hover {
-	font-family: Arial;
-	font-size: 10px;
-	font-weight: bold;
-	color: #00ffff;
-	text-decoration: none;
-	background-image: url(images/top_menu1_03.png);
-	background-repeat: no-repeat;
-	margin: 0px;
-	float: left;
-	height: 26px;
-	width: 84px;
-	padding-top: 15px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 25px;
-}.banner_textarea {
+	padding-left: 42px;
+}	
+	
+.banner_textarea {
 	font-family: Arial;
 	font-size: 12px;
 	font-weight: normal;
@@ -175,12 +75,13 @@ ul{
 	text-decoration: none;
 	margin: 0px;
 	float: left;
-	height: 91px;
-	width: 481px;
-	padding-top: 37px;
+	clear: both;
+	height: 80px;
+	width: 300px;
+	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
-	padding-left: 461px;
+	padding-left: 100px;
 }
 .banner_head {
 	font-family: Arial;
@@ -193,79 +94,11 @@ ul{
 	padding-bottom: 10px;
 	padding-left: 0px;
 }
-.search_menu_banner {
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	height: 38px;
-	width: 1004px;
-}
-.search_background {
-	background-image: url(images/search.png);
-	background-repeat: no-repeat;
-	padding: 0px;
-	float: left;
-	height: 38px;
-	width: 363px;
-	margin-top: 0px;
-	margin-right: 74px;
-	margin-bottom: 0px;
-	margin-left: 25px;
-}
-.searchname {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #339933;
-	text-decoration: none;
-	float: left;
-	height: 20px;
-	padding-top: 12px;
-	padding-right: 8px;
-	padding-bottom: 0px;
-	padding-left: 50px;
-	margin: 0px;
-}
-.searchbox {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #339933;
-	text-decoration: none;
-	float: left;
-	height: 20px;
-	padding-top: 8px;
-	padding-right: 8px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin: 0px;
-}
-.searchtextbox {
-	font-family: Arial;
-	font-size: 9px;
-	font-weight: normal;
-	color: #333333;
-	text-decoration: none;
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	height: 19px;
-	width: 200px;
-	border: 1px solid #CCCCCC;
-}
-.searchtextbox:hover {
-	font-family: Arial;
-	font-size: 9px;
-	font-weight: normal;
-	color: #333333;
-	text-decoration: none;
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	height: 19px;
-	width: 200px;
-	border: 1px solid #999999;
-}
+
+/* менюшка */  
+
+
+
 .menu_area {
 	margin: 0px;
 	padding: 0px;
@@ -273,42 +106,7 @@ ul{
 	height: 38px;
 }
 
-.go {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #FFFFFF;
-	text-decoration: none;
-	background-image: url(images/go.png);
-	background-repeat: no-repeat;
-	margin: 0px;
-	float: left;
-	height: 19px;
-	width: 34px;
-	text-transform: capitalize;
-	padding-top: 2px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
-.go:hover {
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: bold;
-	color: #FFFFFF;
-	text-decoration: none;
-	background-image: url(images/go1.png);
-	background-repeat: no-repeat;
-	margin: 0px;
-	float: left;
-	height: 19px;
-	width: 34px;
-	text-transform: capitalize;
-	padding-top: 2px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-}
+
 .addidea {
 	font-family: Arial;
 	font-size: 11px;
@@ -453,6 +251,8 @@ ul{
 	padding-bottom: 0px;
 	padding-left: 42px;
 }
+
+
 /*------------------------------------------------body_area--------------------*/
 #body_area{
 	width:1004px;
@@ -490,9 +290,11 @@ ul{
 	text-decoration: none;
 	padding: 0px;
 	float: none;
-}.left {
+}
+.left {
 	margin: 0px;
 	float: left;
+	clear; both;
 	height: 353px;
 	width: 213px;
 	padding-top: 21px;
